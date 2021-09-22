@@ -9,18 +9,18 @@ You can send message to any Telegram chat/group/channel when you do new order on
 
 ## Installation
 
-* Set FTX API authentication variables in [bot.py]() file; 
+* Set FTX API authentication variables in [bot.py](bot.py) file; 
     - Line 9: `ftx_api_key`.
     - Line 10: `ftx_api_secret`.
 * Set Telegram variables; 
     - Line 11: `telegram_bot_api_key`.
     - Line 12: `telegram_chat_id`.
 * Change order notifier paths; 
-    - Line 2: [order-notifier.sh]().
-    - Line 9 and 10: [order-notifier.service]().
+    - Line 2: [order-notifier.sh](order-notifier.sh).
+    - Line 9 and 10: [order-notifier.service]()order-notifier.service.
 * Change systemd service variables; 
-    - Line 5: [order-notifier.service](). // User
-    - Line 6: [order-notifier.service](). // Group
+    - Line 5: [order-notifier.service](order-notifier.service). // User
+    - Line 6: [order-notifier.service](order-notifier.service). // Group
 * Install and run; 
     - `$ pip3 install -r requirements.txt`
     - `$ sudo cp order-notifier.service /etc/systemd/system/order-notifier.service`
@@ -30,7 +30,7 @@ You can send message to any Telegram chat/group/channel when you do new order on
 
 ## Debug/Development
 
-If you want to improve this script and yo run this script on your local, set `env` variable as `dev` in [bot.py]() line 8.
+If you want to improve this script and yo run this script on your local, set `env` variable as `dev` in [bot.py](bot.py) line 8.
 
 ---
 
