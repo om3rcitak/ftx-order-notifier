@@ -1,0 +1,13 @@
+[Unit]
+Description=Order Notifier Bot Service
+
+[Service]
+User=ubuntu
+Group=ubuntu
+Type=simple
+#Restart=always
+WorkingDirectory=/home/user/full/path/
+ExecStart="/home/user/full/path/order-notifier.sh"
+
+[Install]
+WantedBy=multi-user.target
