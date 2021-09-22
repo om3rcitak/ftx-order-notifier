@@ -17,7 +17,7 @@ You can send message to any Telegram chat/group/channel when you do new order on
     - Line 12: `telegram_chat_id`.
 * Change order notifier paths; 
     - Line 2: [order-notifier.sh](order-notifier.sh).
-    - Line 9 and 10: [order-notifier.service]()order-notifier.service.
+    - Line 9 and 10: [order-notifier.service](order-notifier.service).
 * Change systemd service variables; 
     - Line 5: [order-notifier.service](order-notifier.service). // User
     - Line 6: [order-notifier.service](order-notifier.service). // Group
